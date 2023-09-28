@@ -1,0 +1,24 @@
+server:
+  port: 8761
+#  ssl:
+#    enabled: true
+#    key-store: classpath:eureka-server.jks
+#    key-store-password: 13047804kl
+#    key-password: 13047804kl
+#    trust-store: classpath:eureka-server.jks
+#    trust-store-password: 13047804kl
+spring:
+  application:
+    name: eurekaService
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+
+
+
+
+
+
+
